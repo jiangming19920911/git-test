@@ -12,6 +12,7 @@ public class TestController {
 
     @RequestMapping("/index")
     public void index() {
+        System.out.println("1");
     }
 
 }
